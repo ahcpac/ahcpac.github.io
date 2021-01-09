@@ -1,0 +1,30 @@
+.pinhead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+
+  figcaption {
+    width: 100%;
+    text-align: center;
+  }
+  a {
+    background: #CACACA;
+    margin: 1px;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+
+    @include breakpoint($small) {
+      width: 55px;
+      height: 55px;
+    }
+  }
+}
+
+.wide {
+  .figcaption: {
+    width: 100%;
+    text-align: center;
+  }
+}

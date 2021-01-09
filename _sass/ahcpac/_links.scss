@@ -1,0 +1,12 @@
+a {
+  color: $text-color;
+  text-decoration-color: $primary-color;
+}
+a:hover {
+  color: $text-color;
+  text-decoration-color: lighten($primary-color, 25%);
+}
+a:visited {
+  color: $text-color;
+  text-decoration-color: lighten($primary-color, 50%);
+}
